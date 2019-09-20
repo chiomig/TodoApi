@@ -1,24 +1,12 @@
-# README
+# Instructions
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Download & Setup
 
-Things you may want to cover:
+- Clone the repo: `git clone https://github.com/chiomig/TodoApi.git`
+- Navigate into the app: `cd TodoApi`
+- Install Gems: `bundle install --path=vendor`
+- Run migrations: `bundle exec rails db:migrate`
 
-* Ruby version
+## Notes
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is the base TodoApi application beginning with class 6 of Next Level Rails. We will build upon this and updates will be located in different branches.
