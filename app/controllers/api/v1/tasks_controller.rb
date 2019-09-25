@@ -4,7 +4,7 @@ module Api::V1
     before_action :authenticate_user
 
     def index
-      @tasks = Task.all
+      @tasks = Task.where(user: current_user)
 
       render json: @tasks
     end
