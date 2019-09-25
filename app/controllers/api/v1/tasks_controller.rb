@@ -1,6 +1,7 @@
 module Api::V1
   class TasksController < ApiController
     before_action :set_task, only: [:show, :update, :destroy]
+    before_action :authenticate_user
 
     def index
       @tasks = Task.all

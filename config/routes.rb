@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :tasks
       resources :users
+      post 'user_token' => 'user_token#create'
     end
   end
 end
